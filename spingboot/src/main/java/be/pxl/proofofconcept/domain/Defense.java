@@ -22,9 +22,6 @@ public class Defense {
     private String pxlPromotor;
     private String researchPaperTitle;
 
-    private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    private static final Random RANDOM = new SecureRandom();
-
     public Defense() {
 
     }

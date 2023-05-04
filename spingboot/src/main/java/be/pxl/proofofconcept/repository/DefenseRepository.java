@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DefenseRepository extends MongoRepository<Defense, String> {
-    Defense deleteDefenseByDefenseId(String defenseId);
+    void deleteDefenseByDefenseId(String defenseId);
 }
